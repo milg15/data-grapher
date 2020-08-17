@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.show-data{    
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container{
+  max-width: 1024px;
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 10%;
+}
+
+@media (max-width: 680px) {
+  .show-data{
+    grid-template-columns: 100%;
+    grid-gap: 5%;
+  }
+}

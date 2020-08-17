@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid gainsboro;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead{
+    padding: 1em;
+}
+
+th, td{
+    padding: 0.3em 0.5em;
+    width: 8em;
+}
+
+.table-id{
+    text-align: center;
+    width: 2em;
+}
+
+.keep{
+    padding: 0.3em;
+    text-align: center;
+}

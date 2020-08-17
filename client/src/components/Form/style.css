@@ -1,0 +1,39 @@
+/* Form data*/
+.form{
+    display: flex;
+}
+
+/* Input text*/
+.form-input{
+    border: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Button styling */
+.btn{
+    width: 8em;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn:hover{
+    background: white;
+    color: grey;
+    cursor: pointer;
+    transition: background 350ms ease-in-out;
+    transition: color 350ms ease-in-out;
+}

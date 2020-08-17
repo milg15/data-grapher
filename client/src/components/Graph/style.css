@@ -1,0 +1,7 @@
+/* Mobile version */
+@media (max-width: 640px) {
+    /* Graph */
+    #pie{
+      margin-top: 3em;
+    }
+}
