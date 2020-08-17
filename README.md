@@ -4,12 +4,12 @@ Front and Back end of a data grapher website builded with MERN.You can see the w
 
 ## Running the code 
 Inside the folder run.
-*To start the server*
+### To start the server
 ```
 npm run start
 ```
 
-<< To start te client run this comands
+### To start te client run this comands
 ```
 cd client
 npm install
